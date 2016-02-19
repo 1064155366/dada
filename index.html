@@ -1,1 +1,95 @@
-hello
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>百度一下，你就知道</title>
+	<style>
+	html,body{
+		white-space: nowrap;
+		height: 100%;
+	}
+	#left{	float: right;
+			margin: 15px 25px;}
+			.bt{
+				color: black;
+				font-size: 13px;
+				font-weight: bold;
+				margin-left: 20px;
+				line-height: 24px;
+			}
+			#left a.bt:link{color: black;}
+			#left a.bt:visited {color: black;}
+			#left a.bt:hover{color: blue;}
+			#main{
+				height: 430px;
+				clear: right;
+				text-align: center;}
+				#logo{margin-bottom: 15px;}
+			input#sr{
+				border-style: solid;
+				border-color: rgb(71,145,255);
+				border-width: 1px;
+				padding: 0px;
+			}
+			input#bdyx{
+				width: 100px;height: 36px;
+				background-color: rgb(51,133,255);
+				color: white;
+				padding: 0px;
+				border-width: 0px;
+
+			}
+			#bdyx:hover{background-color: rgb(49,126,243);}
+			#footer{
+				height: 100px;
+				overflow: hidden;
+				font-size: 12px;
+				text-align: center;
+				color: #666;
+			}
+			#footer a.on:link{color: #00c;}
+			#footer a.on:visited{color: #00c;}
+			#footer a.on:hover{color: #00c;}
+
+			#footer a.un:link{color:#666;}
+			#footer a.un:visited{color:#666;}
+			#footer a.un:hover{color:#666;}
+			#footer a.on{margin: 0px 10px;}
+			
+			
+	</style>
+</head>
+<body>
+<div id="left">
+	<a class="bt" href="#">新闻</a>
+	<a class="bt" href="#">hao123</a>
+	<a class="bt" href="#">地图</a>
+	<a class="bt" href="#">视频</a>
+	<a class="bt" href="#">贴吧</a>
+	<a class="bt" href="#">登录</a>
+	<a class="bt" href="#">设置</a>
+</div>
+<div id="main">
+	<img id="logo"  width="270" height="129" src="logo.png" alt="百度LOGO">
+	<div id="sousuo">
+<form acton="#" method="get">
+	<input id="sr" type="text" name="search" style="width:539px;height:34px"/>
+	<input id="bdyx" type="submit" value="百度一下" />
+</form>
+</div>
+</div>
+<div id="footer">
+	<p>
+		<a class="on" href="#">把百度设为主页</a>
+		<a class="on" href="#">关于百度</a>
+		<a class="on" href="#">About Baidu</a>
+	</p>
+	<p >
+		&copy;2015 Baidu 
+		<a class="un" href="#">使用百度前必读</a> 
+		<a class="un" href="#">意见反馈</a>
+		京ICP证030173号
+	</p>
+	</div>
+</body>
+</html>
